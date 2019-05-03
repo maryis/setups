@@ -1,0 +1,14 @@
+// init a repo
+git init
+
+// tell git who you are (to be allowed to commit or push)
+git config user.name "someone"
+git config user.email "someone@someplace.com"
+
+//to clone a repo from sw
+git clone address
+
+// to be allowed to commit or push you need:
+//1- tell git who you are
+//2- set your pub key on github
+
