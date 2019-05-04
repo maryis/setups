@@ -13,4 +13,5 @@ Now try editing a file (try the README) and then do:
 
 git add -A
 git commit -am "my update msg"
-git push
+git pull https://github.com/maryis/canvasJQ.git
+git push  https://github.com/maryis/canvasJQ.git
