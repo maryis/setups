@@ -10,5 +10,5 @@ git clone address
 
 // to be allowed to commit or push you need:
 //1- tell git who you are
-//2- set your pub key on github
+//2- set your pub key on github (or enter user and pass for every push)
 
