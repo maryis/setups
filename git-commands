@@ -12,3 +12,6 @@ git clone address
 //1- tell git who you are
 //2- set your pub key on github (or enter user and pass for every push)
 
+first push to a new repo in hithub:
+git push --force  address
+
