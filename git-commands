@@ -15,3 +15,10 @@ git clone address
 first push to a new repo in hithub:
 git push --force  address
 
+//cleaning untracked files after adding gitignore:
+git rm -r --cached .
+git add .
+git commit -m ".gitignore fix"
+
+//check tracked files:
+git ls-tree master --name-only
