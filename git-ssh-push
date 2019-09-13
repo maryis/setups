@@ -11,6 +11,17 @@ Now cd to your git clone folder and do:
 git remote set-url origin git@github.com:username/your-repository.git
 Now try editing a file (try the README) and then do:
 
+---------------------
 git add -A
-git commit -am "my update msg"
-git push
+git commit -m "my update msg"
+git pull https://github.com/maryis/canvasJQ.git  master
+
+git push  https://github.com/maryis/canvasJQ.git  master 
+or
+git remote add origin https://github.com/maryis/canvasJQ.git
+git push origin master
+
+
+if we define our local key in github, its not needed to enter user pass for each push
+
+

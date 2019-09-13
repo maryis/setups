@@ -1,0 +1,24 @@
+// init a repo
+git init
+
+// tell git who you are (to be allowed to commit or push)
+git config user.name "someone"
+git config user.email "someone@someplace.com"
+
+//to clone a repo from sw
+git clone address
+
+// to be allowed to commit or push you need:
+//1- tell git who you are
+//2- set your pub key on github (or enter user and pass for every push)
+
+first push to a new repo in hithub:
+git push --force  address
+
+//cleaning untracked files after adding gitignore:
+git rm -r --cached .
+git add .
+git commit -m ".gitignore fix"
+
+//check tracked files:
+git ls-tree master --name-only
