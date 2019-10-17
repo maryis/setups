@@ -16,14 +16,14 @@
 
 **3- java**
  -	interview questions ??
- -	versions (java, Hibernate, JSF, J2ee) ??
+ -	versions (java, Hibernate, JSF, J2ee) ??   --> W
  -	test (unit and integration) ( github )
  -	oop concepts (my notes)
  - 	thread (github)
-    -  synch
-    -	asynch
-	-   runnable/callable
-    - 	pool
+    -    synch
+    -	 asynch
+    -    runnable/callable
+    - 	 pool
  -	Collection/stream (github)
  -	IO (my notes)
  -	Hibernate (github)
@@ -58,7 +58,7 @@
 -	Spark and hadoop modules ?? 
 
 **6- others**
- -      swagger doc : doc beside video in self-study
+ -      swagger doc and test : (doc beside video in self-study)
  -	scrum (my notes)
  -	uml (end of my notes)
  -	maven(my notes + github)
