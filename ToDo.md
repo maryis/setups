@@ -7,12 +7,11 @@
  -	review routing (github)
  -	review redux (github)
  -	test (if possible just read)
- -	jsx vs js
+ -	jsx vs js  ??
 
-**2- nodeJs ??**
+**2- nodeJs(API)**
  -	review notebook
- -	review orm
- -	review express
+ -	review orm , express (github libraryApi)
  -	test (if possible just read)
 
 **3- java**
