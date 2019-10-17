@@ -59,7 +59,7 @@
 -	Spark and hadoop modules ?? 
 
 **6- others**
- -  swagger + spring
+ -      swagger doc : doc beside video in self-study
  -	scrum (my notes)
  -	uml (end of my notes)
  -	maven(my notes + github)
@@ -75,3 +75,4 @@
  -	View deniz movies and take notes ??
  -	Prepare presentation ??
  -	
+ 
