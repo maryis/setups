@@ -16,7 +16,7 @@
 
 **3- java**
  -	interview questions ??
- -	versions (java, Hibernate, JSF, J2ee) ??   --> W
+ -	versions (my blue notebook)
  -	test (unit and integration) ( github )
  -	oop concepts (my notes)
  - 	thread (github)
