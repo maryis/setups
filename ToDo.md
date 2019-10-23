@@ -26,7 +26,7 @@
     - 	 pool
  -	Collection/stream (github)
  -	IO (my notes)
- -	Hibernate (github)
+ -	Hibernate (github)    ---> add criteria section 
  -	design patterns (github) ??
 
  - 	data structures (github)
