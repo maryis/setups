@@ -1,4 +1,4 @@
-**1- reactJs**
+**1- reactJs - facebook** 
  - bootstrap(w3school)
  - review (my notebook)
  -	css, html, js (w3school)
@@ -7,7 +7,7 @@
  -	review routing (github)
  -	review redux (github)
  -	test (if possible just read)
- -	jsx vs js  ??
+ -	jsx vs js (github-reactTimer)
 
 **2- nodeJs(API)**
  -	review notebook
@@ -15,7 +15,7 @@
  -	test (if possible just read)
 
 **3- java**
- -	interview questions ??
+ -	interview questions ???
  -	versions (my blue notebook)
  -	test (unit and integration) ( github )
  -	oop concepts (my notes)
@@ -27,8 +27,7 @@
  -	Collection/stream (github)
  -	IO (my notes)
  -	Hibernate (github)    ---> add criteria section 
- -	design patterns (github) ??
-
+ -	design patterns (github) ???
  - 	data structures (github)
     -  algorithm types (my notes)
     - 	time complexity (my notes)
@@ -57,8 +56,11 @@
 -	Neo4j (my notes)
 -	Spark and hadoop modules ?? 
 
+**3- python**
+ - DM class notes    -------------> W
+ 
 **6- others**
- -      swagger doc and test : (doc beside video in self-study)
+ - swagger doc and test : (doc beside video in self-study)
  -	scrum (my notes)
  -	uml (end of my notes)
  -	maven(my notes + github)
