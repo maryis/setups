@@ -35,6 +35,7 @@
     -	tree, graph, queue, stack, list (github, my notes)
     -	BSF/ DFS (github)
 -	JSF (github)
+- TLs(JSP TL, JSTL, JSF TL,.. ) , EL(JSP EL, JSF EL, EL 3.0, SpEL)
 
 **4- Spring**
 -	interview questions ??
