@@ -27,7 +27,7 @@
  -	Collection/stream (github)
  -	IO (my notes)
  -	Hibernate (github)    ---> add criteria section 
- -	design patterns (github) ???
+ -	design patterns (github)   ----------  W
  - 	data structures (github)
     -  algorithm types (my notes)
     - 	time complexity (my notes)
@@ -35,7 +35,7 @@
     -	tree, graph, queue, stack, list (github, my notes)
     -	BSF/ DFS (github)
 -	JSF (github)
-- TLs(JSP TL, JSTL, JSF TL,.. ) , EL(JSP EL, JSF EL, EL 3.0, SpEL)
+- TLs(JSP TL, JSTL, JSF TL,.. ) , EL(JSP EL, JSF EL, EL 3.0, SpEL) (my black notes)
 
 **4- Spring**
 -	interview questions ??
@@ -43,7 +43,7 @@
 -	spring data(github)
 -	spring mvc(github)
 -	spring di/ioc(github)
--	spring transaction ?? vs jpa, ..
+-	spring transaction ?? vs jpa, ..............H
 -	spring boot (github)
 -	test (github)
 -	redis in spring ??
