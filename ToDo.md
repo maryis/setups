@@ -1,4 +1,4 @@
-**1- reactJs - facebook** 
+**1- reactJs - facebook**     -----> add lifecycle, react context , hoc 
  - bootstrap(w3school)
  - review (my notebook)
  -	css, html, js (w3school)
