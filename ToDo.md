@@ -1,6 +1,6 @@
-**1- reactJs - facebook**     -----> add lifecycle, react context , hoc 
- - bootstrap(w3school)
- - review (my notebook)
+**1- reactJs - facebook**     -----> add lifecycle, react context 
+ -      bootstrap(w3school)
+ -      review (my notebook)
  -	css, html, js (w3school)
  -	review controlled form (github)
  -	review concepts: components, SPA, … 
@@ -37,7 +37,7 @@
 -	JSF (github)
 - TLs(JSP TL, JSTL, JSF TL,.. ) , EL(JSP EL, JSF EL, EL 3.0, SpEL) (my black notes)
 
-**4- Spring**
+**4- Spring**  
 -	interview questions ??
 -	spring cloud (github)
 -	spring data(github)
@@ -61,7 +61,7 @@
  - DM class notes    -------------> W
  
 **6- others**
- - swagger doc and test : (doc beside video in self-study)
+ -      swagger doc and test : (doc beside video in self-study)
  -	scrum (my notes)
  -	uml (end of my notes)
  -	maven(my notes + github)
@@ -72,9 +72,9 @@
  -	Aws (my notes)
  -	Azure ??
  -	TDD/BDD, SDLC/STLC, CICD ??
+ -      Jira  ??
 
 **7- Interview**
  -	View deniz movies and take notes ??
  -	Prepare presentation ??
- -	
  
