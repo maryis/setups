@@ -72,7 +72,7 @@
  -	Aws (my notes)
  -	Azure ??
  -	TDD/BDD, SDLC/STLC, CICD ??
- - Jira  ??
+ - Jira (my blue notes)
 
 **7- Interview**
  -	View deniz movies and take notes ??
