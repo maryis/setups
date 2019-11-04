@@ -1,6 +1,6 @@
 **1- reactJs - facebook**     -----> add lifecycle, react context 
- -      bootstrap(w3school)
- -      review (my notebook)
+ - bootstrap(w3school)
+ - review (my notebook)
  -	css, html, js (w3school)
  -	review controlled form (github)
  -	review concepts: components, SPA, … 
@@ -72,7 +72,7 @@
  -	Aws (my notes)
  -	Azure ??
  -	TDD/BDD, SDLC/STLC, CICD ??
- -      Jira  ??
+ - Jira  ??
 
 **7- Interview**
  -	View deniz movies and take notes ??
