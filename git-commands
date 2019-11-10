@@ -44,3 +44,15 @@ git fetch origin
 git diff master origin/master
 git diff <local branch> <remote>/<remote branch>
 
+// git conflict resolusion:
+after pulling or merging we may get conflict, to resolve them:
+git status to see conflicted files:
+vi file
+// understanding conflict markers:
+<<<<<<< HEAD
+lines in first file
+=======
+lines in second file
+>>>>>>> 78e432aa7f10416b3e9ba632e7fb755693d536aa
+remove one section and markers
+then add and commit file
