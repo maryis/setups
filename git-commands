@@ -10,9 +10,9 @@ git clone address
 
 // to be allowed to commit or push you need:
 //1- tell git who you are
-//2- set your pub key on github (or enter user and pass for every push)
+//2- set your pub key on github (or enter user and pass for every push)  --> end of doc
 
-first push to a new repo in hithub:
+//first push to a new repo in hithub:
 git push --force  address
 
 //cleaning untracked files after adding gitignore:
@@ -22,3 +22,25 @@ git commit -m ".gitignore fix"
 
 //check tracked files:
 git ls-tree master --name-only
+
+//to set key:
+//Generate ssh key:
+ssh-keygen -t rsa -C "your_email@example.com"
+Copy the contents of the file ~/.ssh/id_rsa.pub to your SSH keys in your GitHub account settings. 
+//if we define our local key in github, its not needed to enter user pass for each push
+//Test SSH key:
+ssh -T git@github.com
+
+//to add a remote :
+git remote add origin https://github.com/user/repo.git
+//to change remote name:
+git remote set-url origin https://github.com/octocat/Spoon-Knife
+//to report remotes:
+git remote -v
+//to see all branches:
+git branch -a
+//to get diff with remote:
+git fetch origin
+git diff master origin/master
+git diff <local branch> <remote>/<remote branch>
+
