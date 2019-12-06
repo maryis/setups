@@ -39,15 +39,16 @@
 
 **4- Spring**  
 -	interview questions ??
--	spring cloud (github)
+-	spring boot cloud (github)
 -	spring data(github)
 -	spring mvc(github)
 -	spring di/ioc(github)
 -	spring transaction ?? vs jpa, ..............H
 -	spring boot (github)
--	test (github -mymvcMongo has good comments)
+-	spring test (github -mymvcMongo has good comments)
+- spring actuator (github -viewwithsecurity has good comments)
 -	redis in spring ??
--	kafka in spring (github)
+-	kafka in spring boot(github)
 -	versions ( boot , spring) ??
 
 **5- nosql DB / big data**
