@@ -22,6 +22,7 @@ Repeat the Steps after a while so we could compare the heap usage in that period
 Note: if you are using dev environment, then use Jmeter to create load and then start profiler
 you can add "Aggregate Report" listener, and check 90th, 95th, and 99th pct latency.
 to get rid of the noise from JIT, I run the load tests three times and recorded the <last one's> report.
+Also you can share output by using "JMeter HTML Dashboard Report"
 
 
 
