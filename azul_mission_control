@@ -25,5 +25,12 @@ to get rid of the noise from JIT, I run the load tests three times and recorded 
 Also you can share output by using "JMeter HTML Dashboard Report"
 
 
+One sample we did for SOS:
+created load via jmeter, and captured JFR file -> found the monitor class that blocks thread (long lock)
+then create a branch and did the fix
+then usin the same jmeter plan, we repeated capturing JFR while branch was deployed to environment
+then we copmared "aggregate report" of master and branch in jmeter to find out how much the fix improved the latency
+
+
 
 
