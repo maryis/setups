@@ -1,0 +1,34 @@
+// we can add it to our gitlab pipeline to generate client from swagger, and deploy it 
+// for this to work we need swagger code gen plugin in pom.xml
+
+#!/usr/bin/env sh
+
+set -e
+
+
+CLIENT_VERSION=1.0.27
+MVN_PLUGIN_VERSION=$(curl -s 'https://artifactory.booking.com/api/search/latestVersion?g=com.booking.infra&a=infra-bclient-core&repos=maven-booking-releases')
+OUTPUT_DIR=client
+
+curl -v -o swagger.json https://trips-api.dqs.booking.com/swagger.json
+
+if [ ! -f "swagger.json" ]; then
+  echo "swagger.json not found"
+  exit 1
+fi
+
+mvn com.booking.infra:infra-bclient-swagger2-maven-plugin:$MVN_PLUGIN_VERSION:client-codegen \
+        -Dverbose=true \
+        -DoutputDir=${OUTPUT_DIR} \
+        -Dswagger=./swagger.json \
+        -DclientPackage=com.booking.trips.api.client \
+        -DappName=com.booking.trips.api-client \
+        -DgroupId=com.booking.trips.api \
+        -DartifactId=trips-api-client \
+        -DconnectionType=envoy \
+        -DenvoyService=b-trips-api.service \
+        -Dauthenticate=false \
+        -DserviceName=trips-api \
+        -DclientClassName=TripsApiClient \
+        -Dversion=${CLIENT_VERSION}
+( cd $OUTPUT_DIR && mvn -s ../ci-settings.xml package && mvn -s ../ci-settings.xml deploy )
